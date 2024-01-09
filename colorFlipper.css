@@ -1,0 +1,37 @@
+.letter-spacing{
+    letter-spacing: 0.22vw;
+}
+.nav-top{
+    /* background-color: rgb(226, 226, 226); */
+    height: 11vh;
+}
+body{
+    background-color: #f1f5f8;
+}
+.div-body{
+    height: calc(100vh - 11vh);
+}
+
+.bg-inherit{
+    background-color: inherit;
+}
+a, h4, button{
+    font-size: 1.5vw !important;
+}
+.color{
+    text-transform: capitalize;
+}
+.width{
+    width: 35%;
+    font-size: 2vw;
+}
+button{
+    font-weight: 600 !important;
+}
+button:focus{
+    box-shadow: none !important;
+}
+button:hover{
+    background-color: #212529;
+    color: white !important;
+}
